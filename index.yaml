@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ai-proxy:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-28T14:03:38.700915004+01:00"
+    description: A Helm chart for ai-proxy
+    digest: a14fcd335aa818bb476b77b1c363cbc14f545d832afa80396d38d9548b62ce7b
+    name: ai-proxy
+    type: application
+    urls:
+    - ai-proxy-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-10-28T14:03:38.700554004+01:00"
