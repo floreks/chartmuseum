@@ -3,7 +3,7 @@ entries:
   ai-proxy:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-31T16:42:54.614639225+01:00"
+    created: "2024-10-31T16:47:42.687634525+01:00"
     description: A Helm chart for ai-proxy
     digest: 279f306c83a249caff65b3bad7d69af33023138c489847585cb2211b50b86223
     name: ai-proxy
@@ -13,7 +13,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-31T16:42:54.614232213+01:00"
+    created: "2024-10-31T16:47:42.687362317+01:00"
     description: A Helm chart for ai-proxy
     digest: 8d3da8e48516f685a1f3893c4fb1fea5534d11e6a18cbfcd995908de6127343a
     name: ai-proxy
@@ -23,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-31T16:42:54.613826701+01:00"
+    created: "2024-10-31T16:47:42.687098009+01:00"
     description: A Helm chart for ai-proxy
     digest: a14fcd335aa818bb476b77b1c363cbc14f545d832afa80396d38d9548b62ce7b
     name: ai-proxy
@@ -34,7 +34,35 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-10-31T16:42:54.925382573+01:00"
+    created: "2024-10-31T16:47:42.879285955+01:00"
+    dependencies:
+    - name: kas
+      repository: file://../../plural/helm/kas
+      version: 0.1.0
+    - condition: controller.enabled
+      name: controller
+      repository: file://../controller
+      version: 0.0.86
+    - alias: dashboard
+      condition: dashboard.enabled
+      name: kubernetes-dashboard
+      repository: https://kubernetes.github.io/dashboard
+      version: 7.10.0
+    - condition: flux2.enabled
+      name: flux2
+      repository: https://fluxcd-community.github.io/helm-charts
+      version: 2.11.1
+    description: deploys the plural console and additional dependencies, for use in
+      bring-your-own-kube setups
+    digest: 6dcb0b409501406dcc1c9ae2579fa9185cd125b2ed7524a2c0c54f23e2ae1033
+    name: console
+    type: application
+    urls:
+    - console-0.3.67.tgz
+    version: 0.3.67
+  - apiVersion: v2
+    appVersion: 0.10.34
+    created: "2024-10-31T16:47:42.845451996+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -62,7 +90,7 @@ entries:
     version: 0.3.66
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-10-31T16:42:54.855042157+01:00"
+    created: "2024-10-31T16:47:42.811492034+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -90,7 +118,7 @@ entries:
     version: 0.3.65
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-10-31T16:42:54.799657691+01:00"
+    created: "2024-10-31T16:47:42.776313237+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -118,7 +146,7 @@ entries:
     version: 0.3.64
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-10-31T16:42:54.744020817+01:00"
+    created: "2024-10-31T16:47:42.747204012+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -146,7 +174,7 @@ entries:
     version: 0.3.63
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-10-31T16:42:54.68229116+01:00"
+    created: "2024-10-31T16:47:42.718643503+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -172,4 +200,4 @@ entries:
     urls:
     - console-0.3.62.tgz
     version: 0.3.62
-generated: "2024-10-31T16:42:54.61313328+01:00"
+generated: "2024-10-31T16:47:42.686730599+01:00"
