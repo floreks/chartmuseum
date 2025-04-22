@@ -3,7 +3,7 @@ entries:
   ai-proxy:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2024-11-19T14:11:08.258070196+01:00"
+    created: "2025-04-22T13:01:54.58811446+02:00"
     description: A Helm chart for ai-proxy
     digest: d661cf12a04e0c299e90f93193e6628e64ca49a99fed76083b406206c06eb3ff
     name: ai-proxy
@@ -13,7 +13,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-19T14:11:08.257822598+01:00"
+    created: "2025-04-22T13:01:54.587880898+02:00"
     description: A Helm chart for ai-proxy
     digest: 279f306c83a249caff65b3bad7d69af33023138c489847585cb2211b50b86223
     name: ai-proxy
@@ -23,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-19T14:11:08.257281001+01:00"
+    created: "2025-04-22T13:01:54.587638353+02:00"
     description: A Helm chart for ai-proxy
     digest: 8d3da8e48516f685a1f3893c4fb1fea5534d11e6a18cbfcd995908de6127343a
     name: ai-proxy
@@ -33,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-19T14:11:08.256692804+01:00"
+    created: "2025-04-22T13:01:54.587383159+02:00"
     description: A Helm chart for ai-proxy
     digest: a14fcd335aa818bb476b77b1c363cbc14f545d832afa80396d38d9548b62ce7b
     name: ai-proxy
@@ -44,7 +44,7 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-11-19T14:11:08.448695395+01:00"
+    created: "2025-04-22T13:01:54.757071082+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -72,7 +72,7 @@ entries:
     version: 0.3.67
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-11-19T14:11:08.419160765+01:00"
+    created: "2025-04-22T13:01:54.729296117+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -100,7 +100,7 @@ entries:
     version: 0.3.66
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-11-19T14:11:08.390151433+01:00"
+    created: "2025-04-22T13:01:54.700103008+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -128,7 +128,7 @@ entries:
     version: 0.3.65
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-11-19T14:11:08.360991901+01:00"
+    created: "2025-04-22T13:01:54.675368929+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -156,7 +156,7 @@ entries:
     version: 0.3.64
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-11-19T14:11:08.323852316+01:00"
+    created: "2025-04-22T13:01:54.646398932+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -184,7 +184,7 @@ entries:
     version: 0.3.63
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2024-11-19T14:11:08.28864092+01:00"
+    created: "2025-04-22T13:01:54.61649322+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -210,4 +210,18 @@ entries:
     urls:
     - console-0.3.62.tgz
     version: 0.3.62
-generated: "2024-11-19T14:11:08.256018308+01:00"
+  deployment-operator:
+  - apiVersion: v2
+    appVersion: 0.5.17
+    created: "2025-04-22T13:01:54.759051499+02:00"
+    description: creates a new instance of the plural deployment operator
+    digest: 39c1bccd964c955c6af7ba22e5b6435fdf773e3c949d6a72fc5ae049b010648f
+    maintainers:
+    - name: Plural
+      url: https://www.plural.sh
+    name: deployment-operator
+    type: application
+    urls:
+    - deployment-operator-0.5.17.tgz
+    version: 0.5.17
+generated: "2025-04-22T13:01:54.587028691+02:00"
