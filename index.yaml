@@ -3,7 +3,7 @@ entries:
   ai-proxy:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2025-06-18T13:37:06.066771503+02:00"
+    created: "2025-06-18T14:13:31.014755847+02:00"
     description: A Helm chart for ai-proxy
     digest: d661cf12a04e0c299e90f93193e6628e64ca49a99fed76083b406206c06eb3ff
     name: ai-proxy
@@ -13,7 +13,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-18T13:37:06.064758653+02:00"
+    created: "2025-06-18T14:13:31.014429777+02:00"
     description: A Helm chart for ai-proxy
     digest: 279f306c83a249caff65b3bad7d69af33023138c489847585cb2211b50b86223
     name: ai-proxy
@@ -23,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-18T13:37:06.064233863+02:00"
+    created: "2025-06-18T14:13:31.014134757+02:00"
     description: A Helm chart for ai-proxy
     digest: 8d3da8e48516f685a1f3893c4fb1fea5534d11e6a18cbfcd995908de6127343a
     name: ai-proxy
@@ -33,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-18T13:37:06.063691793+02:00"
+    created: "2025-06-18T14:13:31.013794377+02:00"
     description: A Helm chart for ai-proxy
     digest: a14fcd335aa818bb476b77b1c363cbc14f545d832afa80396d38d9548b62ce7b
     name: ai-proxy
@@ -44,10 +44,10 @@ entries:
   cloud-query:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-06-18T13:37:06.067114403+02:00"
+    created: "2025-06-18T14:13:31.015031157+02:00"
     description: The service part of the Plural Console ecosystem that provides cloud
       resource querying capabilities.
-    digest: 686e7474d1a44fa82dceff6f81df7acd3d24761521a8e06b44f33c42e8d14589
+    digest: 12f7996288f050adad67007cd1232c858f72ae6fa03feddb9c6975e41eb6e202
     name: cloud-query
     type: application
     urls:
@@ -56,7 +56,7 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-06-18T13:37:06.237262553+02:00"
+    created: "2025-06-18T14:13:31.209355197+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -84,7 +84,7 @@ entries:
     version: 0.3.67
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-06-18T13:37:06.209264003+02:00"
+    created: "2025-06-18T14:13:31.176174537+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -112,7 +112,7 @@ entries:
     version: 0.3.66
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-06-18T13:37:06.180610793+02:00"
+    created: "2025-06-18T14:13:31.143573387+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -140,7 +140,7 @@ entries:
     version: 0.3.65
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-06-18T13:37:06.151175123+02:00"
+    created: "2025-06-18T14:13:31.112782317+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -168,7 +168,7 @@ entries:
     version: 0.3.64
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-06-18T13:37:06.124050293+02:00"
+    created: "2025-06-18T14:13:31.080863367+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -196,7 +196,7 @@ entries:
     version: 0.3.63
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-06-18T13:37:06.095674553+02:00"
+    created: "2025-06-18T14:13:31.049908227+02:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -225,7 +225,7 @@ entries:
   deployment-operator:
   - apiVersion: v2
     appVersion: 0.5.17
-    created: "2025-06-18T13:37:06.239977313+02:00"
+    created: "2025-06-18T14:13:31.211881677+02:00"
     description: creates a new instance of the plural deployment operator
     digest: 39c1bccd964c955c6af7ba22e5b6435fdf773e3c949d6a72fc5ae049b010648f
     maintainers:
@@ -239,7 +239,7 @@ entries:
   opentelemetry-ebpf:
   - apiVersion: v2
     appVersion: v0.10.2
-    created: "2025-06-18T13:37:06.240955973+02:00"
+    created: "2025-06-18T14:13:31.212695907+02:00"
     dependencies:
     - alias: opentelemetry
       name: opentelemetry-ebpf
@@ -253,4 +253,4 @@ entries:
     urls:
     - opentelemetry-ebpf-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-18T13:37:06.062784233+02:00"
+generated: "2025-06-18T14:13:31.012829847+02:00"
