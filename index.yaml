@@ -3,7 +3,7 @@ entries:
   ai-proxy:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2025-12-16T16:35:58.948860569+01:00"
+    created: "2025-12-16T16:44:41.301885256+01:00"
     description: A Helm chart for ai-proxy
     digest: d661cf12a04e0c299e90f93193e6628e64ca49a99fed76083b406206c06eb3ff
     name: ai-proxy
@@ -13,7 +13,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-16T16:35:58.948595673+01:00"
+    created: "2025-12-16T16:44:41.301602363+01:00"
     description: A Helm chart for ai-proxy
     digest: 279f306c83a249caff65b3bad7d69af33023138c489847585cb2211b50b86223
     name: ai-proxy
@@ -23,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-16T16:35:58.948337274+01:00"
+    created: "2025-12-16T16:44:41.301294462+01:00"
     description: A Helm chart for ai-proxy
     digest: 8d3da8e48516f685a1f3893c4fb1fea5534d11e6a18cbfcd995908de6127343a
     name: ai-proxy
@@ -33,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-16T16:35:58.948075377+01:00"
+    created: "2025-12-16T16:44:41.300287833+01:00"
     description: A Helm chart for ai-proxy
     digest: a14fcd335aa818bb476b77b1c363cbc14f545d832afa80396d38d9548b62ce7b
     name: ai-proxy
@@ -44,7 +44,7 @@ entries:
   cloud-query:
   - apiVersion: v2
     appVersion: 0.11.21
-    created: "2025-12-16T16:35:58.949147857+01:00"
+    created: "2025-12-16T16:44:41.302290388+01:00"
     description: The service part of the Plural Console ecosystem that provides cloud
       resource querying capabilities.
     digest: f9f7e129d854353953b5dd0602c22ede4fd8383dfee202e909e8b300ec415a51
@@ -56,7 +56,7 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.11.57
-    created: "2025-12-16T16:35:59.061379286+01:00"
+    created: "2025-12-16T16:44:41.408964807+01:00"
     dependencies:
     - name: kas
       repository: file://../kas
@@ -75,7 +75,7 @@ entries:
       version: 0.24.0
     description: deploys the plural console and additional dependencies, for use in
       bring-your-own-kube setups
-    digest: 079b42dd9acae6d4cee909c79437130e4751fd445a8b4cb40462197305a7447a
+    digest: 95e1bb4df17caf36daeb2246be0ee082b9ef3d6f8be0702679aad4b007a04439
     name: console
     type: application
     urls:
@@ -83,7 +83,7 @@ entries:
     version: 0.3.133
   - apiVersion: v2
     appVersion: 0.11.53
-    created: "2025-12-16T16:35:59.038429203+01:00"
+    created: "2025-12-16T16:44:41.389327279+01:00"
     dependencies:
     - name: kas
       repository: file://../kas
@@ -106,7 +106,7 @@ entries:
     version: 0.3.128
   - apiVersion: v2
     appVersion: 0.11.28
-    created: "2025-12-16T16:35:59.018610962+01:00"
+    created: "2025-12-16T16:44:41.369111562+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -134,7 +134,7 @@ entries:
     version: 0.3.105
   - apiVersion: v2
     appVersion: 0.11.24
-    created: "2025-12-16T16:35:58.985053393+01:00"
+    created: "2025-12-16T16:44:41.335107031+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -162,7 +162,7 @@ entries:
     version: 0.3.101
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-12-16T16:35:59.238964664+01:00"
+    created: "2025-12-16T16:44:41.584465556+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -190,7 +190,7 @@ entries:
     version: 0.3.67
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-12-16T16:35:59.210919427+01:00"
+    created: "2025-12-16T16:44:41.553582747+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -218,7 +218,7 @@ entries:
     version: 0.3.66
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-12-16T16:35:59.179426975+01:00"
+    created: "2025-12-16T16:44:41.525263777+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -246,7 +246,7 @@ entries:
     version: 0.3.65
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-12-16T16:35:59.149499195+01:00"
+    created: "2025-12-16T16:44:41.49576252+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -274,7 +274,7 @@ entries:
     version: 0.3.64
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-12-16T16:35:59.121197461+01:00"
+    created: "2025-12-16T16:44:41.466279369+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -302,7 +302,7 @@ entries:
     version: 0.3.63
   - apiVersion: v2
     appVersion: 0.10.34
-    created: "2025-12-16T16:35:59.091601548+01:00"
+    created: "2025-12-16T16:44:41.437388512+01:00"
     dependencies:
     - name: kas
       repository: file://../../plural/helm/kas
@@ -331,7 +331,7 @@ entries:
   deployment-operator:
   - apiVersion: v2
     appVersion: 0.5.17
-    created: "2025-12-16T16:35:59.241747646+01:00"
+    created: "2025-12-16T16:44:41.586809923+01:00"
     description: creates a new instance of the plural deployment operator
     digest: 39c1bccd964c955c6af7ba22e5b6435fdf773e3c949d6a72fc5ae049b010648f
     maintainers:
@@ -345,7 +345,7 @@ entries:
   opentelemetry-ebpf:
   - apiVersion: v2
     appVersion: v0.10.2
-    created: "2025-12-16T16:35:59.242446865+01:00"
+    created: "2025-12-16T16:44:41.587565371+01:00"
     dependencies:
     - alias: opentelemetry
       name: opentelemetry-ebpf
@@ -359,4 +359,4 @@ entries:
     urls:
     - opentelemetry-ebpf-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-16T16:35:58.947718017+01:00"
+generated: "2025-12-16T16:44:41.299930916+01:00"
